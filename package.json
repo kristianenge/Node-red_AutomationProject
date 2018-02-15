@@ -1,0 +1,16 @@
+{
+    "name": "nodered",
+    "version": "1.0.0",
+    "description": "test project",
+    "main": "lower-case.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "kristian enge",
+    "license": "ISC",
+    "node-red": {
+        "nodes": {
+            "lower-case": "lower-case.js"
+        }
+    }
+}
